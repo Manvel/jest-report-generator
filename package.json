@@ -1,0 +1,22 @@
+{
+  "name": "jest-report-generator",
+  "version": "1.0.0",
+  "description": "This repository os for experimenting with Jest report generation, the goal is to generate Jest tests dashboard using github pages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manvel/jest-report-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manvel/jest-report-generator/issues"
+  },
+  "homepage": "https://github.com/Manvel/jest-report-generator#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
