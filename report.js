@@ -6,12 +6,12 @@ const targetPath = "reports";
 class Reporter {
   async onRunComplete(testContexts, results) {
     // console.log("results", JSON.stringify(results));
-    const testSuites = results.testResults.map((suite) => {
+    const testFiles = results.testResults.map((suite) => {
       return {tests: suite.testResults.map(({title, status, ancestorTitles, fullName}) => {
         return {title, status, ancestorTitles, fullName}
       })};
     });
-    await saveReport({testSuites});
+    await saveReport({testFiles});
   }
 }
 

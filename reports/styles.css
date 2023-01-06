@@ -1,0 +1,6 @@
+li.failed {
+  color: red;
+}
+li.passed {
+  color: green;
+}

@@ -4,7 +4,8 @@
   "description": "This repository os for experimenting with Jest report generation, the goal is to generate Jest tests dashboard using github pages.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev": "http-server reports"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/Manvel/jest-report-generator#readme",
   "devDependencies": {
+    "http-server": "^14.1.1",
     "jest": "^29.3.1"
   }
 }
